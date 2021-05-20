@@ -47,7 +47,7 @@ android {
     dependencies {
         implementation platform("com.google.firebase:firebase-bom:${getRootProjectExtOrCoreProperty("FirebaseSDKVersion", firebaseCoreProject)}")
         implementation 'com.google.firebase:firebase-common'
-        api "com.google.firebase:firebase-ml-vision"
+        api 'com.google.firebase:firebase-ml-vision:24.1.0'
 
         implementation 'com.google.android.gms:play-services-vision:20.1.1'
         implementation 'com.google.android.gms:play-services-vision-common:19.1.1'
